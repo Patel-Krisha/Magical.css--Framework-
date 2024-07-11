@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Magical.CSS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="Icon" href="img/fav2.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fontswesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div> 
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img src="img/logo2.png" alt="">
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="animation.html" class="nav-item nav-link">Animation</a>
+                        <a href="docs.html" class="nav-item nav-link">Docs</a>
+                        <a href="team.html" class="nav-item nav-link">About</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                        <a  href="https://github.com/viddhiladva/Magical-CSS-Library" target="_blank" style="color: white;
+                        font-size: 25px;
+                        padding-left: 2%;"><i class="fa-brands fa-github "></i></a>
+                </div>
+            </nav>
+
+
+            <!-- home page start -->
+            <div class="container-xxl py-5 bg-primary hero-header mb-5">
+                <div class="container my-5 py-5 px-lg-5">
+                    <div class="row g-5 py-5">
+                            <div class="text-center text-lg-center">
+                                <img class="img-fluid home-img" style="margin-top: -80px; width: 25%;" src="img/fav2.png"  alt="">
+                            </div>
+                        <div class="text-center text-lg-center">
+                            <!-- <h1 class="text-white mb-4 animated zoomIn" style="font-size: 50px;">MAGICAL.CSS</h1> -->
+                            <p class="text-white pb-3 animated zoomIn text-sm-center justify-content-center" style="font-size: 20px;text-align: justify;">Magical.css is a library of ready-to-use, cross-browser animations for use in your web projects. 
+                                "Create Eye-Catching Animations with Ease Using Our Powerful CSS Framework".
+                            </p>
+                            <a href="docs.html" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Documentation</a>
+                            <a href="animation.html" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Animations</a>
+                        </div>
+                        <!-- <div class="col-lg-6 text-center text-lg-start">
+                            <img class="img-fluid" style="margin-top: -100px;" src="img/Programming1.png"  alt="">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- home page end -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Full Screen Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content" style="background: rgba(29, 29, 39, 0.7);">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center justify-content-center">
+                        <div class="input-group" style="max-width: 600px;">
+                            <input type="text" class="form-control bg-transparent border-light p-3" placeholder="Type search keyword">
+                            <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Screen Search End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container px-lg-5">
+                <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="position-relative d-inline text-primary ps-4">Our Services</h6>
+                    <h2 class="mt-2">What Features We Provide.</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="bi bi-file-earmark-code-fill fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Well Documentation</h5>
+                            <p>Effortlessly Create Stunning Animations with our Comprehensive and Well-Documented CSS Animation Framework.</p>
+                            <!-- <a class="btn px-3 mt-auto mx-auto" href="">Read More</a> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="bi bi-envelope-open fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">24 * 7 Support</h5>
+                            <p>Unleash Your Creativity Anytime, Anywhere with Our 24/7 Accessible CSS Animation Framework.</p>
+                            <!-- <a class="btn px-3 mt-auto mx-auto" href="">Read More</a> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                            <div class="service-icon flex-shrink-0">
+                                <i class="fa-sharp fa-solid fa-people-group fa-2x"></i>
+                            </div>
+                            <h5 class="mb-3">Professional Team</h5>
+                            <p>Get Expert Support and Guidance Every Step of the Way with Our Professional Team and CSS Animation Framework.</p>
+                            <!-- <a class="btn px-3 mt-auto mx-auto" href="">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl bg-primary testimonial py-5 my-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <i class="fa fa-quote-left fa-2x mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h6 class="text-white mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+ <!-- Team Start -->
+ <div class="container-xxl py-5">
+    <div class="container px-lg-5">
+        <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="position-relative d-inline text-primary ps-4">Our Team</h6>
+            <h2 class="mt-2">Meet Our Team Members</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://github.com/viddhiladva" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.instagram.com/viddhi_ladva/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.linkedin.com/in/viddhi-ladva-b20144267/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <img class="img-fluid rounded w-100" src="img/team-7.jpg" alt="" style="border-style: groove;">
+                    </div>
+                    <div class="px-4 py-3">
+                        <h5 class="fw-bold m-0">Viddhi Ladva</h5>
+                        <small>Developer</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="team-item">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://github.com/dency25" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.instagram.com/dency_desai/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.linkedin.com/in/dency-desai-347352271/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <img class="img-fluid rounded w-100"  src="img/team-2.jpg" alt="" style="border-style: groove;">
+                    </div>
+                    <div class="px-4 py-3">
+                        <h5 class="fw-bold m-0">Dency Desai</h5>
+                        <small>Core Contributor</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="team-item">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://github.com/Patel-Krisha" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.instagram.com/__krisha_26/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.linkedin.com/in/krisha-patel-358098258/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <img class="img-fluid rounded w-100" src="img/team-3.jpg" alt="" style="border-style: groove;">
+                    </div>
+                    <div class="px-4 py-3">
+                        <h5 class="fw-bold m-0">Krisha Patel</h5>
+                        <small>UI Designer</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="team-item">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://github.com/jaiminmalaviya/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.instagram.com/jaimin._02/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.linkedin.com/in/jaimin-malaviya-94b543218/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <img class="img-fluid rounded w-100" src="img/team-4.jpg" alt="" style="border-style: groove;">
+                    </div>
+                    <div class="px-4 py-3">
+                        <h5 class="fw-bold m-0">Jaimin Malaviya</h5>
+                        <small>Team Leader</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="team-item">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://github.com/darshil320" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.instagram.com/_darshil_official__04/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.linkedin.com/in/darshil-lashkari-83741720b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <img class="img-fluid rounded w-100" src="img/team-5.jpg" alt="" style="border-style: groove;">
+                    </div>
+                    <div class="px-4 py-3">
+                        <h5 class="fw-bold m-0">Darshil Lashkari</h5>
+                        <small>Contributor</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="team-item">
+                    <div class="d-flex">
+                        <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://github.com/Divyesh-Dodiya" target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.instagram.com/_mr__div.__04/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-square text-primary bg-white my-1" href="https://www.linkedin.com/in/divyesh-dodiya-7b794425b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <img class="img-fluid rounded w-100" src="img/team-6.jpg" alt="" style="border-style: groove;">
+                    </div>
+                    <div class="px-4 py-3">
+                        <h5 class="fw-bold m-0">Divyesh Dodiya</h5>
+                        <small>Contributor</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-1 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-8">
+                        
+
+                        <img width=200 height=70 src="img/logo2.png" alt=""></br></br>
+                        <p style="text-align: justify;">Designed and built with all the love in </br> the world by the <a href="team.html"  style="color: white;text-decoration: underline;">Core Team</a> helped by our mentor.</p>
+                        <hr>
+                        <p>Copyright © 2021 <a href="index.html" style="color: white;text-decoration: underline;">MAGICAL.CSS.</a> All Rights Reserved.</p>
+                        </div> 
+                    <div class="col-md-6 col-lg-4">
+                        <h5 class="text-white mb-4">Popular Link</h5>
+                        <a class="btn btn-link" href="index.html">Home</a>
+                        <a class="btn btn-link" href="docs.html">Documentation</a>
+                        <a class="btn btn-link" href="animation.html">Animation</a>
+                        <a class="btn btn-link" href="team.html">About</a>
+                        <a class="btn btn-link" href="contact.html">Contact</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

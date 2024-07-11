@@ -1,0 +1,135 @@
+/*-----------------------------------*\
+  $BASE
+\*-----------------------------------*/
+
+:root {
+    --c-background: #f9f7f7;
+    --c-background-dark: #dbe2ef;
+    --c-secondary: #df2020;
+    --c-tertiary: #fce5cd;
+    --c-main: #052450;
+    --c-dark: #333;
+  } 
+  html {
+    scroll-behavior: smooth;
+  }
+  @media screen and (min-width: 700px) {
+    html {
+      font-size: 112.5%;
+      line-height: 1.35;
+    }
+  }
+    a,
+     a:visited {
+        color: var(--c-main);
+    } 
+  
+  pre,
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  code {
+    font-size: 1em;
+    background: var(--c-tertiary);
+  }
+  
+  pre {
+    padding:1rem ;
+    padding-bottom: 0rem;
+    background-color: var(--c-main);
+    border-radius: 0.50em;
+    color: #fff;
+  }
+  
+  pre code {
+    background-color: transparent;
+    font-size: 0.8rem !important;
+  }
+  
+  /*-----------------------------------*\
+    $TYPOGRAPHY
+  \*-----------------------------------*/
+  
+  p,
+  ul,
+  ol,
+  hr,
+  table,
+  pre,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  p {
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+  }
+  .docs p{
+    color: var(--c-dark);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--c-main );
+  }
+  
+  h1 {
+    font-size: 3.998rem;
+  }
+  
+  h2 {
+    font-size: 1.999rem;
+  }
+  
+  h3 {
+    font-size: 1.414rem;
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+  }
+  
+  h5 {
+    font-size: 1rem;
+  }
+  
+/*-----------------------------------*\
+  $DOCS
+\*-----------------------------------*/
+
+  
+blockquote {
+    border-left: 6px solid #2124B1;
+    padding-left: 1rem;
+    margin-left: 0;
+  }
+  
+  .docs {
+    position: relative;
+  }
+  
+  article .docs{
+    font-family: 1px heebo,sans-serif;
+  }
+  .content {
+    padding: 1rem 3rem;
+    margin-bottom: 2.8rem;
+  }
+  
+  @media (min-width: 1520px) {
+    .content {
+      grid-column: 2 / 3;
+    }
+  } 
